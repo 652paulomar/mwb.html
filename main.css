@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+.head .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.header .container {
+    display: flex;
+    background: rgb(247, 247, 3);
+    color: white;
+    padding: 50px;
+}
+
+#description {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#join {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    background: red;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#youtube {
+    border: 2px solid white;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#mentors {
+    width: 500px;
+    height: 400px;
+}
+
+h2 {
+    color: red;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#line {
+    color: yellow;
+    padding: 3px;
+}
+
+.div {
+    margin-top: 30px;
+}
+
+#img {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+}
+
+#copyright {
+    color: gray;
+}
+
+.form {
+    display: block;
+}
+
+#form {
+    margin-top: 50px;
+    display: block;
+}
+
+#button {
+    background: rgb(224, 57, 35);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: right;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+}
